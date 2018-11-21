@@ -1,4 +1,81 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  text-align: center;
+  font-size: 3em;
+  width: 100%;
+  margin: 25%;
+  background-color: #dadada;
+}
+
+.emphasis {
+    font: .6em "Arial", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+
+.preview {
+  height: 300px;
+  width: 100%;
+  padding: 20px 25px;
+  margin-top: 20px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.preview h1{
+  text-align: left;
+}
+
+.baku {
+    background-image: url("images/baku.jpg");
+    margin: 2%;
+}
+
+.london {
+    background-image: url("images/london.png");
+    margin: 2%;
+}
+
+.madrid {
+    background-image: url("images/madrid.jpg");
+    margin: 2%;
+}
+
+.rome {
+    background-image: url("images/rome.jpg");
+    margin: 2%;
+}
+
+@media all and (max-width: 575px) {
+  {
+    width: 48%
+    margin: 1%;
+    background-color: green;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  {
+    width: 48%
+    margin: 1%;
+    background-color: green;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  {
+    width: 40%
+    margin: 1%;
+    background-color: green;
+  }
 }
