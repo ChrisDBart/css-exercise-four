@@ -26,9 +26,9 @@ body {
 }
 
 .preview {
-  height: 300px;
+  height: 250px;
   width: 100%;
-  padding: 20px 25px;
+  padding: 20px 20px;
   margin-top: 20px;
   display: inline-block;
   background-size: cover;
@@ -64,26 +64,21 @@ body {
   height: auto;
 }
 
-@media screen and (max-width: 575px) {
-.baku h1, .london h1, .madrid h1, .rome h1
+@media screen and (min-width: 575px) {
 
-.column {
-    width: 100%;
-  }
+.preview {
+  width: 100%;
 }
 
 @media screen and (min-width: 575px) {
-.baku h1, .london h1, .madrid h1, .rome h1
 
-.column {
-    width: 50%;
-  }
+.preview {
+  width: 85%;
 }
 
 
 @media screen and (min-width: 991px) {
-.baku h1, .london h1, .madrid h1, .rome h1
 
-.column {
-    width: 25%;
+  .preview {
+    width: 18%;
   }
